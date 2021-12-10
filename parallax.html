@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Example of parralax effect</title>
+  <style media="screen">
+.travel{
+  position: fixed;
+  color: green;
+}
+.travel2{
+  background-image: url(2people.jpg);
+  height:100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;}
+.travel3{
+  background-image: url(travel2.jpg);
+  height:100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;}
+}
+@media only screen and (max-devise-width: 1366px){
+  .travel2{
+  background-attachment: scroll; -
+  }
+  .travel3{
+  background-attachment: scroll; -
+  }
+}
+
+
+</style>
+</head>
+
+  <body>
+    <h1 class="travel">Приклад паралаксу</h1>
+  <div class="travel2"></div>
+  <div class="travel3"></div>
+
+  </body>
+</html>
